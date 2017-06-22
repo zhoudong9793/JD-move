@@ -1,0 +1,166 @@
+@import './base.less';
+@import './adapter.less';
+.jd_login {
+    width: 100%;
+    .header {
+        width: 100%;
+        height: 88/77rem;
+        background-color: #f9f9f9;
+        border: 1px solid #bbb;
+        position: relative;
+        text-align: center;
+        line-height: 88/77rem;
+        color: #616161;
+        font-family: "simsun";
+        .goback {
+            display: block;
+            width: 22/77rem;
+            height: 40/77rem;
+            background: url('../images/goback.png') no-repeat left top/22/77rem 40/77rem;
+            position: absolute;
+            left: 33/77rem;
+            top: 26/77rem;
+        }
+        .my_jd {
+            font-size: 35/77rem;
+
+        }
+    }
+    section {
+        width: 100%;
+        box-sizing: border-box;
+        padding-right: 40/77rem;
+        padding-left: 40/77rem;
+        .input_userName {
+            width: 100%;
+            height: 104/77rem;
+            border-bottom: 1px solid #ddd;
+            font-size: 30/77rem;
+            font-family: "simsun";
+            line-height: 104/77rem;
+            #username {
+                font-size: 30/77rem;
+                font-family: "simsun";
+                padding-left: 50/77rem;
+            }
+        }
+        .input_password {
+            width: 100%;
+            height: 104/77rem;
+            border-bottom: 1px solid #ddd;
+            font-size: 30/77rem;
+            font-family: "simsun";
+            line-height: 104/77rem;
+            #password {
+                font-size: 30/77rem;
+                font-family: "simsun";
+                padding-left: 50/77rem;
+            }
+        }
+        .input_code {
+            width: 100%;
+            height: 104/77rem;
+            border-bottom: 1px solid #ddd;
+            font-size: 30/77rem;
+            font-family: "simsun";
+            line-height: 104/77rem;
+            #code {
+                font-size: 30/77rem;
+                font-family: "simsun";
+                padding-left: 20/77rem;
+            }
+        }
+        .showNews {
+            width: 100%;
+            font-size: 25/77rem;
+            font-weight: 600;
+            line-height: 60/77rem;
+            text-align: center;
+            color: rgba(255,0,0,0.8);
+        }
+        .login {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 35/77rem;
+            color: #848689;
+            font-family: "simsun";
+            line-height: 90/77rem;
+            background-color: #eee;
+            border-radius: 5/77rem;
+        }
+        .quick_login {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 35/77rem;
+            color: #ff0000;
+            border: 1px solid #ff0000;
+            font-family: "simsun";
+            line-height: 90/77rem;
+            margin-top: 20/77rem;
+            border-radius: 5/77rem;
+        }
+        .quick_nav {
+            width: 100%;
+            margin-top: 44/77rem;
+            label {
+                float: left;
+                line-height: 38/77rem;
+                #rember {
+                    display: none;
+                }
+                .icon_rember {
+                    display: inline-block;
+                    width: 38/77rem;
+                    height: 38/77rem;
+                    background: url('../images/iconBg.png') no-repeat center -214/77rem;
+                    background-size: 44/77rem 500/77rem;
+                    float: left;
+                }
+                .icon_text {
+                    font-size: 23/77rem;
+                    float: left;
+                    padding-left: 5/77rem;
+                }
+            }
+            .findPsWd {
+                display: inline-block;
+                margin-left: 80/77rem;
+                line-height: 38/77rem;
+                color: #000;
+                i {
+                    display: inline-block;
+                    float: left;
+                    width: 36/77rem;
+                    height: 36/77rem;
+                    background: url('../images/iconBg.png') no-repeat center -53/77rem;
+                    background-size: 44/77rem 500/77rem;
+                }
+                span {
+                    font-size: 23/77rem;
+                    padding-left: 5/77rem;
+                    float: left;
+                }
+            }
+            .quick {
+                float: right;
+                line-height: 38/77rem;
+                color: #000;
+                i {
+                    display: inline-block;
+                    float: left;
+                    width: 36/77rem;
+                    height: 36/77rem;
+                    background: url('../images/iconBg.png') no-repeat center -91/77rem/cover;
+                    background-size: 44/77rem 500/77rem;
+                }
+                 span {
+                    font-size: 23/77rem;
+                    padding-left: 5/77rem;
+                    float: left;
+                }
+            }
+        }
+    }
+}

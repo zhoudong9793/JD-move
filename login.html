@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>登录</title>
+    <link href="./images/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet/less" href="./css/login.less">
+    <script src="./js/less.js"></script>
+    <script type="text/javascript" src="./js/login.js"></script>
+</head>
+<body>
+    <div class="jd_login">
+        <div class="header">
+            <a  class="goback" href="javascript:history.back(-1)"></a><span class="my_jd">京东登录</span>
+        </div>
+        <section>
+            <div class="input_userName">
+                <label for="username">账号</label>
+                <input type="text" id="username" placeholder="用户名/邮箱/已验证手机">
+                <span class="delName"></span>
+            </div>
+            <div class="input_password">
+                <label for="password">密码</label>
+                <input type="password" id="password" placeholder="请输入密码">
+                <span class="eye"></span>
+            </div>
+            <div class="input_code">
+                <label for="code">验证码</label>
+                <input type="text" id="code" placeholder="请输入验证码">
+                <span class="codeImg"></span>
+            </div>
+            <div class="showNews">请输入正确地登录信息</div>
+            <a href="" class="login">登录</a>
+            <a href="" class="quick_login">一键登录</a>
+            <div class="quick_nav">
+                <label for="rember">
+                    <input type="checkbox" id="rember">
+                    <span class="icon_rember"></span>
+                    <span class="icon_text">一个月内免登陆</span>
+                </label>
+                <a href="#" class="findPsWd">
+                    <i></i><span>找回密码</span>
+                </a>
+                <a href="#" class="quick">
+                    <i></i><span>快速注册</span>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
