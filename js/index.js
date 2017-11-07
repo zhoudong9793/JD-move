@@ -52,7 +52,7 @@ function timerDown(total){
 function seckill(){
     var secEle=document.querySelector(".jd_seckill .seckill_bottom .seckill_news_list");
     var width=document.body.offsetWidth;
-    var ulWidth=secEle.offsetWidth;
+    var ulWidt   h=secEle.offsetWidth;
     var maxDistance=0;
     var minDistance=width-ulWidth;
     var startX=0,moveX=0,distanceX=0;
