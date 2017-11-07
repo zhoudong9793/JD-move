@@ -12,7 +12,7 @@ window.onload=function(){
 
 // part1: scroll to change the header's opacity
 function headerScroll(){
-    var header=document.querySelector(".j_header");
+    var header=document.querySelector(".jd _header");
     var banner=document.querySelector(".jd_banner");
     window.onscroll=function(){
         var bannerHeight=banner.offsetHeight;
