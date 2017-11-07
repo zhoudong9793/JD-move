@@ -7,6 +7,7 @@ window.onload=function(){
     slide2();
     slide3();
     getMore();
+    
 }
 
 // part1: scroll to change the header's opacity
