@@ -6,7 +6,7 @@ function loginTest(){
     var userName=document.querySelector(".input_userName #username");
     var password=document.querySelector(".jd_login section #password");
     var inpCode=document.querySelector(".jd_login section #code");
-    var showNews=document.querySelector(".jd_login section .showNews")
+    var showNews=docum   ent.querySelector(".jd_login section .showNews")
     var nameReg=/^[a-zA-Z_]{3,16}$/;/*用户名以字母或者下划线开头，3-16位长。*/
     var passReg=/([a-zA-Z0-9!@#$%^&*()_?<>{}]){8,18}/;/*密码由8-18位的数字字母或者下划线。特殊字符构成*/
     // 1.username test

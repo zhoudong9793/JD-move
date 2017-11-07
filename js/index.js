@@ -5,13 +5,13 @@ window.onload=function(){
     timerDown(3);
     slide1();
     slide2();
-    slide3();
+    sli   de3();
     getMore();
 
 }
 
 // part1: scroll to change the header's opacity
-function headerScroll(){
+function headerS   croll(){
     var header=document.querySelector(".jd_header");
     var banner=document.querySelector(".jd_banner");
     window.onscroll=function(){
@@ -29,7 +29,7 @@ function headerScroll(){
 function timerDown(total){
     // get elemtents limit to time;
     var timeCount=document.querySelector(".jd_seckill");
-    var timeBox=timeCount.querySelectorAll(".seckill_time");
+    var timeBox=tim  eCount.querySelectorAll(".seckill_time");
     var totalSec=total*3600;
     var timer=setInterval(function(){
         var second=totalSec%60;
@@ -57,7 +57,7 @@ function seckill(){
     var minDistance=width-ulWidth;
     var startX=0,moveX=0,distanceX=0;
     secEle.addEventListener("touchstart",function(event){
-        startX=event.touches[0].clientX+moveX;
+        start  X=event.touches[0].clientX+moveX;
     });
     secEle.addEventListener("touchmove",function(event){
         moveX=event.touches[0].clientX-startX;
